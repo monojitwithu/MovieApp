@@ -1,0 +1,35 @@
+.rating{
+
+    label{
+        font-size: 16px;
+        font-weight: 600;
+
+
+
+    }
+    .star-container{
+        display: flex;
+        align-items: center;
+        .fill{
+            height: 30px;
+            width: 30px;
+            color: $accent;
+            
+    }
+    .empty{
+        height: 30px;
+         width: 30px;
+        
+    }
+    .half{
+
+        height: 30px;
+            width: 30px;
+            color: $accent;
+
+    }
+    h2{
+        padding-left: 15px;
+    }
+}
+}

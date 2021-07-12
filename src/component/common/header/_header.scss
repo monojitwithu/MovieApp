@@ -1,0 +1,31 @@
+
+.header{
+    display: flex;
+    .nav-bar{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        
+    }
+    .nav-item{
+        margin: 0px;
+        padding: 8px;
+        text-transform: capitalize;
+        font-size: 16px;
+        color: $gray1;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s all ease-in-out;
+        text-decoration: none;
+        &.selected{
+            color: $accent;
+            border-bottom: 2px solid $accent;
+        }
+        &:hover{
+            color: $accent;
+            border-bottom: 2px solid $accent;
+            
+        }
+    }
+    
+}

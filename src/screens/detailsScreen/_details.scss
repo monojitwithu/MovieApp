@@ -1,0 +1,69 @@
+.details-screen{
+    padding:25px 10%;
+    .back-button{
+        color: $accent;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 60px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    .trailer-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        video{
+            width: 60%;
+            max-height: 20%;
+
+
+            
+        }
+        
+    }
+}
+.details-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px 8%;
+    background: $secoundary;
+    padding: 25px  0px;
+    border-radius: 10px;
+    .image-container{
+        border-radius:8px;
+        overflow: hidden;
+        max-height: 300px;
+        max-width: 200px;
+        width: max-content;
+        img{
+            
+            height: 300px;
+            
+            
+        }
+        
+    }
+}
+.description{
+    width: 30%;
+    h5{
+      color:$accent; 
+      margin :16px 0px ;
+    }
+    p{
+        color: $gray1;
+        margin :16px 0px ;
+    }
+    
+}
+.movie-details{
+    width: 25%;
+
+}
