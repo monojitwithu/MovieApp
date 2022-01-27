@@ -1,15 +1,12 @@
-@import './theme';
-@import '../styles/defaults';
+@import "./theme";
+@import "../styles/defaults";
 
+@import "../series/series";
+@import "../component/common/header/header";
 
-
-
-@import '../series/series';
-@import '../component/common/header/header';
-
-@import './typography';
-@import '../component/common/card/card';
-@import '../screens/movies/movies';
-@import '../screens/detailsScreen/details';
-@import '../component/common/labelValue/labelValue';
-@import '../component/common/rating/rating';
+@import "./typography";
+@import "../component/common/card/card";
+@import "../screens/movies/movies";
+@import "../screens/detailsScreen/details";
+@import "../component/common/labelValue/labelValue";
+@import "../component/common/rating/rating";
