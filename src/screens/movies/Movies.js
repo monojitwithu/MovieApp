@@ -1,9 +1,16 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useEffect,                                       useState } from "react";
 import Card from "../../component/common/card/Card";
 import Header from "../../component/common/header/Header";
 
 function Movies() {
+  
+  
+  
+  
+  
+  
+  
   const [movieData, setMovieData] = useState([]);
 
   useEffect(() => {
@@ -11,6 +18,13 @@ function Movies() {
   }, []);
 
   const getMoviesdata = () => {
+    
+    
+    
+    
+    
+    
+    
     axios
       .get("https://imdb8.p.rapidapi.com/title/get-popular-movies-by-genre", {
         headers: {
@@ -25,6 +39,13 @@ function Movies() {
       })
       .then((response) => {
         setMovieData(response.data);
+      
+      
+      
+      
+      
+      
+      
       })
       .catch((error) => console.log(error));
   };
@@ -38,7 +59,10 @@ function Movies() {
           .map((item, index) => (
             <Card
               key={movieData[index]}
-              movieId={movieData[index]}
+
+
+
+                                                   movieId={movieData[index]}
               imageUrl="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
               year="2019"
               rating="11eeeeeeeeee5"
