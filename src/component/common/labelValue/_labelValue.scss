@@ -1,17 +1,12 @@
-.label-value-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    label{
-        color: $accent;
-       
+.label-value-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-
-    }
-    p{
-        color: $gray1;
-
-    }
-
+  label {
+    color: $accent;
+  }
+  p {
+    color: $gray1;
+  }
 }
